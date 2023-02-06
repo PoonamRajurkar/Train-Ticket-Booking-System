@@ -1,18 +1,27 @@
-# Train-Ticket-Booking-System
-Concept of Interpolation in Angular
+# TrainBookingSystem
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
-Interpolation refers to embedding expressions into marked up text. By default, interpolation uses the double curly braces {{ and }} as delimiters.
+## Development server
 
-To illustrate how interpolation works, consider an Angular component that contains a "trainName" variable:
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
------->    trainName = 'Garibhrath Pune Express [12121]';
- 
- Use interpolation to display the value of this variable in the corresponding component template:
- 
- ------>    <h4 class="text text-primary">
-                Train Name - {{ trainName }}
-            </h4>
-            
-            
-Angular replaces 'trainName' with the string value of the corresponding component property. In this case, the value is "Garibhrath Pune Express [12121]".
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
